@@ -164,7 +164,7 @@
 					<string>Position</string>
 					<key>value</key>
 					<array>
-						<real>258</real>
+						<real>248</real>
 						<real>323</real>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -202,7 +202,7 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>-5</real>
+						<real>-15</real>
 						<real>14</real>
 					</array>
 				</dict>
