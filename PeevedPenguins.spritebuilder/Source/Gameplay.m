@@ -17,6 +17,8 @@
 
 - (void)didLoadFromCCB {
     // tell this scene to accept touches
+    _physicsNode.debugDraw = TRUE;
+    
     self.userInteractionEnabled = TRUE;
     CCScene *level = [CCBReader loadAsScene:@"Levels/Level1"];
     [_levelNode addChild:level];
