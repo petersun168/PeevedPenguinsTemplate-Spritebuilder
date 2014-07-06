@@ -13,11 +13,15 @@
     CCNode *_catapultArm;
     CCNode *_levelNode;
     CCNode *_contentNode;
+    CCNode *_pullbackNode;
 }
 
 - (void)didLoadFromCCB {
     // tell this scene to accept touches
-//    _physicsNode.debugDraw = TRUE;
+    _physicsNode.debugDraw = TRUE;
+    
+    // nothing shall collide with our invisible nodes
+    _pullbackNode.physicsBody.collisionMask = @[];
     
     self.userInteractionEnabled = TRUE;
     CCScene *level = [CCBReader loadAsScene:@"Levels/Level1"];
