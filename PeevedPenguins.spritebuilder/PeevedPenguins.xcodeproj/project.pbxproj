@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66A9EDE4196A5994006AA68C /* Seal.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A9EDE3196A5994006AA68C /* Seal.m */; };
 		66B2BD9A19696ED90070D0CD /* Penguin.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B2BD9919696ED90070D0CD /* Penguin.m */; };
 		66B2BD9E1969A0820070D0CD /* Gameplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B2BD9D1969A0820070D0CD /* Gameplay.m */; };
 		8392007A18EE8E3300B6C429 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8392007918EE8E3300B6C429 /* GLKit.framework */; };
@@ -58,6 +59,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		66A9EDE2196A5994006AA68C /* Seal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Seal.h; path = Source/Seal.h; sourceTree = "<group>"; };
+		66A9EDE3196A5994006AA68C /* Seal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Seal.m; path = Source/Seal.m; sourceTree = "<group>"; };
 		66B2BD9819696ED90070D0CD /* Penguin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Penguin.h; path = Source/Penguin.h; sourceTree = "<group>"; };
 		66B2BD9919696ED90070D0CD /* Penguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Penguin.m; path = Source/Penguin.m; sourceTree = "<group>"; };
 		66B2BD9C1969A0820070D0CD /* Gameplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gameplay.h; path = Source/Gameplay.h; sourceTree = "<group>"; };
@@ -139,6 +142,8 @@
 				B7378993180767190076A88C /* MainScene.m */,
 				66B2BD9C1969A0820070D0CD /* Gameplay.h */,
 				66B2BD9D1969A0820070D0CD /* Gameplay.m */,
+				66A9EDE2196A5994006AA68C /* Seal.h */,
+				66A9EDE3196A5994006AA68C /* Seal.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -354,6 +359,7 @@
 				66B2BD9E1969A0820070D0CD /* Gameplay.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
 				66B2BD9A19696ED90070D0CD /* Penguin.m in Sources */,
+				66A9EDE4196A5994006AA68C /* Seal.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
