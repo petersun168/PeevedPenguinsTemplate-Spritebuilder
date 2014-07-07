@@ -155,6 +155,7 @@
     [seal.parent addChild:explosion];
     
     // finally, remove the destroyed seal
-    [seal removeFromParent];}
+    [seal removeFromParent];
+}
 
 @end
